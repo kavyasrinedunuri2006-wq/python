@@ -1,0 +1,10 @@
+num=int(input("enter  the num:"))
+for val in range(2,num//2+1):
+    print("i am for start",val)
+    if num%val==0:
+        print("not prime")
+        break
+        print("i am for end",val)
+    else:
+        print("prime")
+        print("program ended")
