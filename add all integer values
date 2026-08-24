@@ -1,0 +1,8 @@
+choice=1
+sum=0 
+while choice==1:
+    num=int(input("Enter the num:"))
+    print("choose your choice\n 1 continue...\n2.end")
+    choice=int(input())
+    sum=sum+num
+    print(sum)
