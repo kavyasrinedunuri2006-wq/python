@@ -1,0 +1,10 @@
+numbers = [10, 20, 30, 40, 50]
+
+search = int(input("Enter number to search: "))
+
+for number in numbers:
+    if number == search:
+        print("Number found!")
+        break
+else:
+    print("Number not found!")
